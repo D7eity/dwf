@@ -82,8 +82,8 @@ e = function(ic, jc, kc)
     lc.Parent = jc
     return lc
 end
-f = e("Ragdoll", game.CoreGui, {
-    Name = "AutoRob",
+f = e("ScreenGui", game.CoreGui, {
+    Name = "Ragdoll",
     ResetOnSpawn = false,
     ZIndexBehavior = "Sibling"
 })
